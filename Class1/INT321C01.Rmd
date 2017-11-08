@@ -276,4 +276,4 @@ shinyServer(function(input, output) {
 - Interactive Graphics
 
 ## More about R and the Web
-- [OpenCPU](https://public.opencpu.org/) by Jerome Ooms, is a really neat project providing an API for calling R from web documents
+-- [OpenCPU](https://public.opencpu.org/) by Jerome Ooms, is a really neat project providing an API for calling R from web documents
