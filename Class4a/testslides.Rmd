@@ -1,0 +1,73 @@
+---
+title: "My Fancy Presentation"
+author: "Michael Haseley"
+date: "November 29, 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+## My New Slide
+Content
+Content
+
+***
+No title Slide
+
+## My Title
+
+### A top level subheading
+
+#### A second level subheading
+ 
+- Bullet one
+- Bullet two
+
+1. Item A
+2. Item B
+
+## Basic Formatting
+
+Plain text!
+
+*italicized text*
+
+**Bold Text**
+
+`for (i %in% 1:10)`
+
+## Running Code
+
+```{r}
+head(mtcars)
+
+```
+## Running code Remove Comments
+
+```{r, comment = ""}
+head(mtcars)
+
+```
+
+## Running Code no comments with echo
+
+```{r, comment = "", echo=TRUE}
+head(mtcars)
+
+```
+You could also change these options below the YAML and format the entire document
+
+## Display Code no execution
+
+```{r, comment = "", echo=TRUE, eval=FALSE}
+head(mtcars)
+
+```
+
+## Slide with Plot
+
+```{r echo=FALSE, fig.align='center', fig.cap="My Awesome Caption"}
+plot(mtcars$wt, mtcars$mpg, xlab = "Weight", ylab = "MPG")
+```
+
