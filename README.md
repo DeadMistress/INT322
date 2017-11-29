@@ -5,3 +5,7 @@ Please Install the following packages in order to run knit:
 https://miktex.org/download
 
 https://github.com/jgm/pandoc/releases/tag/2.0.1.1
+
+Link to Hosted Slides
+
+https://deadmistress.github.io/INT322/slides/R_Markdown.html#1
