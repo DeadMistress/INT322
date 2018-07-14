@@ -1,7 +1,7 @@
 ---
 title: "INT 322 Visualization and Reporting Class 1"
 author: "Michael Haseley"
-date: "November 7, 2017"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   ioslides_presentation: default
   beamer_presentation: default
@@ -26,7 +26,7 @@ is very helpful.
 
 - HTML gives a web page structure and sectioning as well as markup instructions
 - CSS gives the style
-- Javscript for interactivity
+- Javascript for interactivity
   
 Shiny uses [Bootstrap](http://getbootstrap.com/) (no 
 relation to the statistics bootstrap) style, which (to me) 
